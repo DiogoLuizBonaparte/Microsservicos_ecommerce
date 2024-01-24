@@ -12,7 +12,7 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<SQLContext>(
         options => options.UseSqlServer("Server=DESKTOP-71URVSU\\SQLEXPRESS;" +
-        "Database=geek_product;Integrated Security=SSPI;" +
+        "Database=loja_online_product;Integrated Security=SSPI;" +
         " TrustServerCertificate=true"));
 
 

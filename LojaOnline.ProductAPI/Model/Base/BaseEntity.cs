@@ -3,7 +3,6 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace LojaOnline.ProductAPI.Model.Base
 {
-
     public class BaseEntity 
     {
         [Key]
