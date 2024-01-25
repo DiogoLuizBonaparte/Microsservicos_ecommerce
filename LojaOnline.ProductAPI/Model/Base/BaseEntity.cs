@@ -7,6 +7,7 @@ namespace LojaOnline.ProductAPI.Model.Base
     {
         [Key]
         [Column("id")]
+        [Required]
         public long Id { get; set; }
     }
 }
